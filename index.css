@@ -1,0 +1,54 @@
+body {
+    background: url("img/body_bg.jpg");
+    /* background-size: cover; */
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header #title {
+    font-size: 72px !important;
+    position: absolute;
+    top: -250px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center {
+    position: relative;
+    background: url("gif/BG-Elemental.gif");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 100px;
+    height: 100vh;
+    /* For 100% screen height */
+    text-align: center;
+}
+
+.middle {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hide {
+    display: none;
+}
+
+.continue {
+    position: absolute;
+    top: 320px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+        opacity: 0;
+    }
+}
