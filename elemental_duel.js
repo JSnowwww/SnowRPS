@@ -90,7 +90,7 @@ function clearMatchHistory() {
 }
 
 
-//arsenal trigger button (per button)
+//element trigger button (per button)
 const buttonfire = document.getElementById("fire");
 buttonfire.addEventListener("click", function () {
     setScoreLimit();
@@ -107,7 +107,7 @@ buttonfire.addEventListener("click", function () {
         comp_elemental = "Wind_Elemental.webp.gif";
     }
 
-    // Set Hide Player Choices Arsenal
+    // Set Hide Player Choices element
     document.getElementById("platform").classList.add("hide");
     // Set Battle Station
     document.getElementById("battle-station").classList.remove("hide");
@@ -121,7 +121,7 @@ buttonfire.addEventListener("click", function () {
 
     setTimeout(function () {
         checkGameResult();
-        // Set Hide Player Choices Arsenal
+        // Set Hide Player Choices element
         document.getElementById("platform").classList.remove("hide");
         // Set Battle Station
         document.getElementById("battle-station").classList.add("hide");
@@ -144,7 +144,7 @@ buttonwater.addEventListener("click", function () {
         comp_elemental = "Wind_Elemental.webp.gif";
     }
 
-    // Set Hide Player Choices Arsenal
+    // Set Hide Player Choices element
     document.getElementById("platform").classList.add("hide");
     // Set Battle Station
     document.getElementById("battle-station").classList.remove("hide");
@@ -158,7 +158,7 @@ buttonwater.addEventListener("click", function () {
 
     setTimeout(function () {
         checkGameResult();
-        // Set Hide Player Choices Arsenal
+        // Set Hide Player Choices element
         document.getElementById("platform").classList.remove("hide");
         // Set Battle Station
         document.getElementById("battle-station").classList.add("hide");
@@ -181,7 +181,7 @@ buttonplant.addEventListener("click", function () {
         comp_elemental = "Wind_Elemental.webp.gif";
     }
 
-    // Set Hide Player Choices Arsenal
+    // Set Hide Player Choices element
     document.getElementById("platform").classList.add("hide");
     // Set Battle Station
     document.getElementById("battle-station").classList.remove("hide");
@@ -195,7 +195,7 @@ buttonplant.addEventListener("click", function () {
 
     setTimeout(function () {
         checkGameResult();
-        // Set Hide Player Choices Arsenal
+        // Set Hide Player Choices element
         document.getElementById("platform").classList.remove("hide");
         // Set Battle Station
         document.getElementById("battle-station").classList.add("hide");

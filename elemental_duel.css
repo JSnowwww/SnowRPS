@@ -32,23 +32,23 @@ body {
     transform: translate(-50%, -50%);
 }
 
-/****** ARSENAL BUTTONS STYLE******/
-.arsenal_container {
+/****** element BUTTONS STYLE******/
+.element_container {
     display: flex;
     /* flex-wrap: initial; */
 }
 
-.arsenal_container .elemental {
+.element_container .elemental {
     padding: 50px;
     cursor: pointer;
 }
 
-.arsenal_container .elemental .img-elemental:hover {
+.element_container .elemental .img-elemental:hover {
     width: 300px;
     height: 300px;
 }
 
-.arsenal_container img {
+.element_container img {
     width: 250px;
     height: 250px;
 }
